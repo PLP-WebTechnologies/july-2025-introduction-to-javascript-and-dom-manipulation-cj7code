@@ -210,10 +210,10 @@ button:hover {
 ## 📸 Screenshots  
 
 ```html
-<img src="screenshots/age-tip.png" alt="age-tips" width="400"/>
-<img src="screenshots/countdown.png" alt="countdown" width="400"/>
-<img src="screenshots/nursing-tips.png" alt="nursing-tips" width="400"/>
-<img src="screenshots/water-intake.png" alt="water-intake" width="400"/>
+<img src="screenshots/age-tip.png" alt="Age Tips" width="400"/>
+<img src="screenshots/countdown.png" alt="Countdown" width="400"/>
+<img src="screenshots/nursing-tips.png" alt="Nursing Tips" width="400"/>
+<img src="screenshots/water-intake.png" alt="Water Intake" width="400"/>
 
 ```
 
