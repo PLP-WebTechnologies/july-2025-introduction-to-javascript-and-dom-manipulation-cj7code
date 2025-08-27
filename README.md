@@ -61,3 +61,169 @@ Each part of the assignment should be clearly commented and organized.
 * DOM manipulation that improves interactivity
 * Clean structure and consistent indentation
 
+
+================================================================================
+================================================================================
+
+# 📘 Student README - JavaScript Fundamentals Assignment — Health & Nursing Education
+
+This project demonstrates **JavaScript fundamentals** (variables, conditionals, functions, loops, and DOM manipulation) in the context of **health and nursing education**.
+
+---
+
+## 📂 Project Structure
+
+```
+health-tips/
+│── index.html       # Main webpage structure
+│── style.css        # Styling with a little colorful background
+│── script.js        # JavaScript code (logic, loops, DOM manipulation)
+│── README.md        # Documentation
+│── screenshots/     # Folder containing screenshots
+    ├── age-tip.png
+    ├── countdown.png
+    ├── nursing-tips.png
+    └── water-intake.png
+
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone or download this project.  
+2. Open `index.html` in any browser (Chrome, Edge, Firefox, etc.).  
+3. Use the **buttons on the page** to test JavaScript features (tips, toggle highlight, loops).  
+
+---
+
+## 📑 Assignment Parts
+
+### 🎯 Part 1: JavaScript Basics  
+
+Captures user input with `prompt`, then checks age and gives a health tip using **conditionals**.  
+
+```javascript
+let age = prompt("Enter your age:");
+if (age < 18) {
+  console.log("Remember to stay active and eat healthy!");
+} else {
+  console.log("Maintain regular exercise and hydration.");
+}
+```
+
+---
+
+### ❤️ Part 2: Functions (Reusability)  
+
+Two custom functions:  
+- **calculateWaterIntake** → daily water intake by weight.  
+- **showTips** → displays a list of health/nursing tips.  
+
+```javascript
+function calculateWaterIntake(weightKg) {
+  return weightKg * 35; // ml of water per kg
+}
+
+function showTips() {
+  const tips = [
+    "Wash your hands regularly 🧼",
+    "Drink enough water 💧",
+    "Take study breaks 📚",
+    "Get enough sleep 😴",
+  ];
+  const tipsList = document.getElementById("tipsList");
+  tipsList.innerHTML = "";
+  tips.forEach(tip => {
+    const li = document.createElement("li");
+    li.textContent = tip;
+    tipsList.appendChild(li);
+  });
+}
+```
+
+---
+
+### 🔁 Part 3: Loops (Repetition)  
+
+Initial static **for loop** (as in the assignment):  
+
+```javascript
+for (let i = 5; i > 0; i--) {
+  console.log("Do exercise rep: " + i);
+}
+```
+
+➡️ This loop outputs repetitions directly to the **console**, simulating exercise reminders.  
+
+---
+
+### 🌐 Part 4: DOM Manipulation  
+
+Includes 3 DOM interactions:  
+1. **Show Tips** → dynamically displays nursing tips.  
+2. **Toggle Highlight** → adds/removes background color on tips list.  
+3. **Dynamic Element Creation** → new list items created in `showTips()`.  
+
+```javascript
+function toggleHighlight() {
+  const tipsList = document.getElementById("tipsList");
+  tipsList.classList.toggle("highlight");
+}
+```
+
+---
+
+## 🎨 Styling (style.css)  
+
+Colorful background for presentation:  
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec); /* light blue to pink */
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+.highlight {
+  background-color: #fff59d; /* light yellow */
+  transition: background-color 0.5s;
+}
+```
+
+---
+
+## 📸 Screenshots    
+
+![age-tip](screenshots/age-tip.png)  
+![countdown](screenshots/countdown.png)  
+![nursing-tips](screenshots/nursing-tips.png)  
+![water-intake](screenshots/water-intake.png)  
+
+---
+
+## ✅ Learning Outcomes  
+
+- Practiced **variables, conditionals, and operators**.  
+- Built **reusable functions** for health tasks.  
+- Implemented **loops** (exercise repetition in console).  
+- Used **DOM manipulation** for interactivity.  
+- Styled the page with **colorful CSS**.  
+- Added **screenshots for demonstration**.  
+
+---
+@ 2025 Joseph - PLP Academy
