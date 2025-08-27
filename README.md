@@ -146,7 +146,7 @@ function showTips() {
 
 ### 🔁 Part 3: Loops (Repetition)  
 
-Initial static **for loop** (as in the assignment):  
+**for loop**  
 
 ```javascript
 for (let i = 5; i > 0; i--) {
