@@ -207,12 +207,15 @@ button:hover {
 
 ---
 
-## 📸 Screenshots    
+## 📸 Screenshots  
 
-![age-tip](screenshots/age-tip.png)  
-![countdown](screenshots/countdown.png)  
-![nursing-tips](screenshots/nursing-tips.png)  
-![water-intake](screenshots/water-intake.png)  
+```html
+<img src="screenshots/age-tip.png" alt="age-tips" width="400"/>
+<img src="screenshots/countdown.png" alt="countdown" width="400"/>
+<img src="screenshots/nursing-tips.png" alt="nursing-tips" width="400"/>
+<img src="screenshots/water-intake.png" alt="water-intake" width="400"/>
+
+```
 
 ---
 
