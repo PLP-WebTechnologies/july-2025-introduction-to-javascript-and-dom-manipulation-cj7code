@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nursing Education - Health Tips</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>🩺 Nursing Education - Daily Health Tips</h1>
+
+        <!-- Part 1: User Input -->
+        <section>
+            <h2>Check Your Health Tip by Age</h2>
+            <input type="number" id="ageInput" placeholder="Enter your age">
+            <button onclick="checkAge()">Get Health Tip</button>
+            <p id="ageMessage"></p>
+        </section>
+
+        <hr>
+
+        <!-- Part 2: Functions -->
+        <section>
+            <h2>💧 Water Intake Calculator</h2>
+            <input type="number" id="weightInput" placeholder="Enter weight (kg)">
+            <button onclick="calculateWater()">Calculate Water Intake</button>
+            <p id="waterResult"></p>
+        </section>
+
+        <hr>
+
+        <!-- Part 3: Loops -->
+        <section>
+            <h2>🏃 Exercise Countdown</h2>
+            <button onclick="startCountdown()">Start Countdown</button>
+            <ul id="countdownList"></ul>
+        </section>
+
+        <hr>
+
+        <!-- Part 4: DOM Interactions -->
+        <section>
+            <h2>📌 Daily Nursing Tips</h2>
+            <button onclick="showTips()">Show Tips</button>
+            <button onclick="toggleHighlight()">Toggle Highlight</button>
+            <ul id="tipsList"></ul>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
