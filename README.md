@@ -74,16 +74,16 @@ This project demonstrates **JavaScript fundamentals** (variables, conditionals, 
 ## 📂 Project Structure
 
 ```
-health-tips/
-│── index.html       # Main webpage structure
-│── style.css        # Styling with a little colorful background
-│── script.js        # JavaScript code (logic, loops, DOM manipulation)
-│── README.md        # Documentation
-│── screenshots/     # Folder containing screenshots
-    ├── age-tip.png
-    ├── countdown.png
-    ├── nursing-tips.png
-    └── water-intake.png
+project-folder/
+│── index.html # Main HTML file
+│── style.css # CSS styling
+│── script.js # JavaScript logic
+│── screenshots/ # Screenshot folder
+│ ├── homepage.png
+│ ├── input-output.png
+│ ├── functions-loops.png
+│ └── dom-interaction.png
+│── README.md # Project documentation
 
 ```
 
