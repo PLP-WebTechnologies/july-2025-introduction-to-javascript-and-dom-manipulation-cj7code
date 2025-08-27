@@ -62,7 +62,7 @@ Each part of the assignment should be clearly commented and organized.
 * Clean structure and consistent indentation
 
 
-================================================================================
+==============================================================================
 ================================================================================
 
 # 📘 Student README - JavaScript Fundamentals Assignment — Health & Nursing Education
@@ -210,10 +210,10 @@ button:hover {
 ## 📸 Screenshots  
 
 
-<img src="screenshots/age-tip.png" alt="Age Tips" width="400"/>
-<img src="screenshots/countdown.png" alt="Countdown" width="400"/>
-<img src="screenshots/nursing-tips.png" alt="Nursing Tips" width="400"/>
-<img src="screenshots/water-intake.png" alt="Water Intake" width="400"/>
+<img src="screenshots/age-tip.png" alt="Age Tips" width="100"/>
+<img src="screenshots/countdown.png" alt="Countdown" width="100"/>
+<img src="screenshots/nursing-tips.png" alt="Nursing Tips" width="100"/>
+<img src="screenshots/water-intake.png" alt="Water Intake" width="100"/>
 
 
 
